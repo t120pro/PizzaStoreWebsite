@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order</title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="index.html"><span style="float:left;">HOME</span></a>
+			<a href="order2.html"><span style="float:right;">ORDER</span></a>
+			<a href="menu.html">MENU</a>
+		</h1>
+	</header>
+<div class="endFloating"></div>
+<div id="order">
+<form>
+	<h1>Order Your Pizza Now!</h1>
+	<div class="rectangle"></div>
+	<table>	
+	<tr>
+		<th colspan="2"><label for="fname">First name:</label></th>
+		<th colspan="2"><label for="lname">Last name:</label>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="text" id="fname" name="fname"></td>
+		<td colspan="2"><input type="text" id="lname" name="lname"></td>
+	</tr>
+
+	<tr>
+		<th colspan="2"><label for="phone">Phone Number</label></th>
+		<th colspan="2"><label for="DOB">Date of Birth</label></th>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="tel" id="phone" name="phone"></td>
+		<td colspan="2"><input type="date" id="DOB" name="DOB"></td>
+	</tr>
+
+	<tr>
+		<th colspan="4"><label for="address">Address</label></th>
+	</tr>
+	<tr>
+		<td colspan="4"><input type="text" id="address" name="address"></td>
+	</tr>
+	<tr>
+		<th colspan="2"><label for="city">City:</label></th>
+		<th colspan="2"><label for="zip">Zip Code</label></th>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="text" id="city" name="city"></td>
+		<td colspan="2"><input type="text" id="zip" name="zip"></td>
+	</tr>
+	<tr>
+		<th colspan="3"><label for="ccname">Credit Card Holder's Name</label></th>
+		<th colspan="1"><label for="expdate">Expiration Date</label></th>
+	</tr>
+	<tr>
+		<td colspan="3"><input type="text" id="ccname" name="ccname"></td>
+		<td colspan="1"><input type="month" id="expdate" name="expdate"></td>
+	</tr>
+	<tr>
+		<th colspan="3"><label for="ccnum">Credit Card Number</label></th>
+		<th colspan="1"><label for="cccode">Security Code</label></th>
+	</tr>
+	<tr>
+		<td colspan="3"><input type="password" id="ccnum" name="ccnum"></td>
+		<td colspan="1"><input type="password" id="cccode" name="cccode"></td>
+	</tr>
+
+	<tr id="radiobuttons">
+		<th colspan="1"><label for="18in">18 Inch</label></th>
+		<th colspan="1"><label for="12in">12 Inch</label></th>
+		<th colspan="1"><label for="8in">8 Inch</label></th>
+		<th colspan="1"><label for="quant">Quantity:</label></th>
+	</tr>
+	<tr>
+		<td colspan="1"><input type="radio" id="18in" name="pizzasize" value="18in"></td>
+		<td colspan="1"><input type="radio" id="12in" name="pizzasize" value="12in"></td>
+		<td colspan="1"><input type="radio" id="8in" name="pizzasize" value="8in"></td>
+		<td colspan="1"><input type="number" id="quant" name="quant"></td>
+	</tr>
+
+	<tr id="checkboxes">
+		<td>
+			<h6>VEGETABLES:</h6>
+  				<input type="checkbox" name="veg1" id="veg1">
+				<label for="veg1">Avocado</label><br/>
+				<input type="checkbox" name="veg2" id="veg2">
+				<label for="veg2">Black beans</label><br>
+				<input type="checkbox" name="veg3" id="veg3">
+				<label for="veg3">Broccoli</label><br>
+				<input type="checkbox" name="veg4" id="veg4">
+				<label for="veg4">Carrot</label><br>
+				<input type="checkbox" name="veg5" id="veg5">
+				<label for="veg5">Cherry tomatoes</label><br>
+				<input type="checkbox" name="veg6" id="veg6">
+				<label for="veg6">Dried tomatoes</label><br>
+				<input type="checkbox" name="veg7" id="veg7">
+				<label for="veg7"> Roasted Eggplant</label><br>
+				<input type="checkbox" name="veg8" id="veg8">
+				<label for="veg8">Green peppers</label><br>
+				<input type="checkbox" name="veg9" id="veg9">				
+				<label for="veg9">Olives</label><br>
+		</td>
+		<td>
+			<input type="checkbox" name="veg10" id="veg10">
+			<label for="veg10">Lettuce</label><br>
+			<input type="checkbox" name="veg11" id="veg11">
+			<label for="veg11">Mushrooms</label><br>
+			<input type="checkbox" name="veg12" id="veg12">
+			<label for="veg12">Onions</label><br>
+			<input type="checkbox" name="veg13" id="veg13">
+			<label for="veg13">Olives</label><br>
+			<input type="checkbox" name="veg14" id="veg14">
+			<label for="veg14">Peas</label><br>
+			<input type="checkbox" name="veg15" id="veg15">
+			<label for="veg15">Red onions</label><br>
+			<input type="checkbox" name="veg16" id="veg16">
+			<label for="veg16">Red peppers</label><br>
+			<input type="checkbox" name="veg17" id="veg17">			
+			<label for="veg17">Roasted cauliflower</label><br>
+			<input type="checkbox" name="veg18" id="veg18">
+			<label for="veg18">Roasted eggplant</label><br>
+			<input type="checkbox" name="veg19" id="veg19">
+			<label for="veg19">Roasted garlic</label><br>
+			
+		</td>
+		<td>
+			<input type="checkbox" name="veg20" id="veg20">
+			<label for="veg20">Roasted peppers</label><br>
+			<input type="checkbox" name="veg21" id="veg21">
+			<label for="veg21">scallions</label><br>
+			<input type="checkbox" name="veg22" id="veg22">
+			<label for="veg22">Shallots</label><br>
+			<input type="checkbox" name="veg23" id="veg23">
+			<label for="veg23">Spinach</label><br>
+			<input type="checkbox" name="veg24" id="veg24">
+			<label for="veg24">Sun dried tomatoes</label><br>
+			<input type="checkbox" name="veg25" id="veg25">
+			<label for="veg25">Sweet corn</label><br>
+			<input type="checkbox" name="veg26" id="veg26">
+			<label for="veg26">Yellow peppers</label><br>
+			<input type="checkbox" name="veg27" id="veg27">
+			<label for="veg27">Yellow squash</label><br>
+			<input type="checkbox" name="veg28" id="veg28">
+			<label for="veg28">Zucchini</label><br>
+		</td>
+		<td>
+			<h6>CHEESES:</h6>
+			<input type="checkbox" name="cheese1" id="cheese1">
+			<label for="cheese1">Cheddar</label><br/>
+			<input type="checkbox" name="cheese2" id="cheese2">
+			<label for="cheese2">Feta</label><br/>
+			<input type="checkbox" name="cheese3" id="cheese4">
+			<label for="cheese4">Parmesan</label><br/>
+			<input type="checkbox" name="cheese5" id="cheese5">
+			<label for="cheese5">Mozzarella</label><br/>
+			<input type="checkbox" name="cheese6" id="cheese6">
+			<label for="cheese6">Muenster</label><br/>
+			<input type="checkbox" name="cheese7" id="cheese7">
+			<label for="cheese7">Ricota</label><br/>
+			<h6>OTHER TOPPINGS:</h6>
+			<input type="checkbox" name="other1" id="other1">
+			<label for="other1">Faux meatballs</label><br/>
+			<input type="checkbox" name="other2" id="other2">
+			<label for="other2">Falafel</label><br/>
+			<input type="checkbox" name="other4" id="other4">
+			<label for="other4">Pesto</label><br/>
+		</td>
+	</tr>
+		
+	<tr>
+		<td colspan="4"><input type="submit" name="order" value="ORDER"></td>
+
+	</tr>
+</table>
+</form>
+</div>
+
+<footer>
+		<div id="leftfooter">
+			<p>	Location:<br/>
+				<a href="https://mapquest.com/directions/to/us/pa/imler/16655-9219/123-main-40.257607,-78.584099">123 Main Street<br/>
+				New York, NY 10001</a><br/> 
+			</p>
+		</div>
+		<div id="rightfooter">
+			<p>	Contact Us:<br/>
+				718 382-9980<br/>
+				<a href= "mailto:hello@pizzaparadise.com"> hello@pizzaparadise.com</a><br/>
+			</p>
+		</div>
+		<div id="copywrite">
+				<a href="index.html#welcome1">Pizza Paradise</a><br/>
+				&copy; Pizza Paradise 2020
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,415 @@
+body{
+	font-family: Cambria, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-family: Arial Black, sans-serif;
+	font-size: 5em;
+	color: white;
+}
+h2{
+ 	font-family: Trebuchet MS;
+ 	font-size: 4em;
+ 	color: #1D2833;
+}
+h3{
+	font-family: Arial Narrow, sans-serif;
+	font-size: 2em;
+	color: #D67E25;
+}
+h4{
+	font-family: Georgia, Serif;
+	font-size: 2em;
+	color: #9C2913;
+}
+h5{
+	font-family: Arial Narrow, sans-serif;
+	font-size: 1.5em;
+	color: #1D2833;
+}
+h6{
+	font-family: Georgia, Serif;
+	font-size: 1.5em;
+	color: white;
+}
+/*header*/
+header{
+	background-color: #191a1e;
+	height: 4.5em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	text-align: center;
+}
+header h1{
+	font-size: 1.5em;
+	margin: .8em 7em;
+}
+header a:link, header a:visited {
+	color: #d67e25;
+}
+header a:hover, header a:active {
+	color: white;
+}
+form .center{
+	margin: auto;
+	width: 50%;
+}
+/*footer*/
+footer{
+	clear: both;
+	font-family: tanoma, arial, helvetica, sans-serif;
+	background: #191a1e;
+	height: 9em;
+	color: white;
+	text-decoration: none;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1em;
+}
+footer #leftfooter{
+	float: left;
+}
+footer #rightfooter{
+	float: right;
+	text-align: right;
+}
+footer #copywrite{
+	clear: both;
+	text-align: center;
+}
+footer a:link, footer a:visited {
+	color: white;
+}
+footer a:hover, footer a:active{
+	text-decoration: underline;
+}
+			/*about us-index*/
+			#aboutus{
+				background-color: #191a1e;
+				height: 35em;
+				margin: 0;
+				padding: 0;
+			}
+			#aboutus h2{
+				font-weight: bold;
+				vertical-align: middle;
+				color: #9C2913;
+				margin: .5em 0 .0 1.25em;
+				padding: 1em 0 0 0;		
+			}
+			#aboutus p{
+				font-family: Georgia, serif;
+				font-size: 1.3em;
+				color: white;
+				margin: 1em 4em;
+			}
+			/*five most-index*/
+			#fivemost{
+				background-image: url("colorful-fresh-vegetables.jpg");
+				height: 25em;
+				background-size: 100%;
+				vertical-align: middle;
+				padding-left: 10%;
+				padding-left: 10%;
+			}
+			#fivemost h2{
+				text-align: center;
+				position: absolute;
+				z-index: 2;
+			}
+			#fivemost #numbered{
+				padding-left: 5%;
+				color: #1D2833;
+				clear: both;
+				font-size: 2em;
+			}
+			#fivemost .rectangle{
+  				height: 6%;
+  				width: 85%;
+  				background-color: white;
+  				align-content: center;
+			}
+			/*form - order*/
+			#form{
+				background-color: #d67e25;
+				height: 100em;
+				padding-left: 10em;
+				padding-right: 10em;
+			}
+			/*free delivery-index*/
+			#freedelivery{
+				background-color: #d67e25;
+				text-align: right;
+				height: 18em;
+				padding-right: 8%;
+			}
+			#freedelivery h3{
+				font-weight: bold;
+				font-size: 700%;
+				color: white;
+  				text-shadow: 0 0 20px white;
+				margin: 0;
+			}
+			#freedelivery p{
+				font-weight: bold;
+				font-size: 250%;
+				color: #902913;
+				margin: 0;
+				vertical-align: middle;
+			}
+			#freedelivery a:link, #freedelivery a:visited, #freedelivery   a:active{
+				text-decoration: underline;
+				font-weight: bold;
+				color: #9b2913;
+			}
+			#freedelivery  a:hover{
+				font-weight: bold;
+				color: white;
+			}
+			/*hours of operation-index*/
+			#hoursofoperation .leftside{
+				z-index: 3;
+				position: relative;
+			}
+			#hoursofoperation .rectangle{
+				width: 100%;
+				position: absolute;
+				top: 106em;
+			}
+			#hoursofoperation{
+				margin: 3em 0;
+				background-color: #D67E25;
+			}
+
+			#hoursofoptable{
+				height: 28.2em;
+				padding: 1.5em;
+			}
+			#hoursofoptable table{
+				margin-left:auto; 
+    			margin-right:auto;
+			}
+			#hoursofoptable td{
+				font-family: Arial Bold, Serif;
+				font-size: 1.5em;
+				color: #191a1e;
+				padding: .17em 1em 
+			}
+			#hoursofoptable h2{
+				z-index: 2;
+				padding: .74em;
+				font-weight: bold;
+				margin: 0;
+				text-align: center;
+				position: relative;
+			}
+			#hoursofoperation tr{
+				padding: 4em;
+				margin: 4em;
+			}
+			/*menu - menu*/
+			#menu{
+				width: 50%;
+				background-color: #191a1e;
+				padding: 2em 5em;
+				margin: 5em auto .5em;
+			}
+			#menu h2{
+				border-top: 10px solid white;
+				text-align: center;
+				font-weight: bold;
+				color: white;
+				padding: .4em 0 0;
+				margin: 0;
+			}
+			#menu h4{
+				padding: 0;
+				margin: .5em;
+				color: white;
+			}
+			#menu h1{
+				letter-spacing: .2em;
+				text-align:center;
+				font-size: 1em;
+				padding: 0 .4em;
+				margin: 0;
+			}
+			#menubackground{
+				background-image: url("pizzapics2.png");
+				background-size: 100%;
+				position: fixed;
+				top: 3em;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				z-index: -1;
+				padding:0;
+				margin: 0;
+			}
+			#menu ul {
+  				list-style-type: none;
+  				margin: auto;
+  				padding: 0;
+  				color: white;
+ 			}
+ 			#menu .center ul{
+ 				margin: auto;
+				width: 50%;
+ 			}
+ 			#menu .endFloating{
+ 				border-bottom: 10px solid white;
+ 				padding: 0 0 2em;
+ 			}
+ 			/*order - order2*/
+ 			#order{
+				padding: 5em 2em;
+				margin: 2em;
+				background-image: url("pizzaboxes.jpg");
+				background-size: 100%;
+			}
+			#order table{
+				padding: 1em;
+				align-content: center;
+				background-color: white;
+				width: 70%;
+				margin: auto;
+				box-shadow: 0px 0px 40px 10px black;
+			}
+			#order #checkboxes{
+				font-size: 1.5em;
+			}
+ 			#order #checkboxes label{
+				height: .4em;
+				font-family: Arial, sans-serif;
+				font-size: .5em;
+				text-transform: uppercase;
+				letter-spacing: .1em;
+				color: #d67e25;
+ 			}
+ 			#order #checkboxes input{
+ 				background: none;
+				color: #191a1e;
+				border: white solid;
+				width: 10%;
+				vertical-align: middle;
+				padding: .5em 1em;
+				letter-spacing: .1em;
+				border: 1px solid #191a1e;
+ 			}
+			#order td{
+				text-align: left;
+			}
+			#order tr{
+				margin: .5em;
+			}
+			#order h6{
+				margin: 0;
+				padding: .3em 0;
+				font-size: .7em;
+				color: #191a1e;
+			}
+			#order h1{
+				color: #191a1e;;
+				text-align: center;
+				position: relative;
+				z-index: 3;
+			}
+			#order .rectangle{
+				width: 100%;
+				top: 11.5em;
+				height: 15%;
+				left: 0;
+				position: absolute;
+				box-shadow: 0px 0px 40px 10px black;
+			}
+			#order input[type=submit]{
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				font-family: Arial Bold, serif;
+				font-size: 3em;
+				vertical-align: middle;
+				align-items: center;
+			}
+			#order input[type=submit]:focus{
+				background-color: #D67E25;
+				border: 1px solid white;
+			}
+			#order input{
+				height: 1.5em;
+				background-color: white;
+				color: #191a1e;
+				border: 3px #191a1e solid;
+				width: 90%;
+				font-family: Arial, serif;
+				vertical-align: middle;
+				padding: .5em 1em;
+				letter-spacing: .1em;
+			}
+			#order th label{
+				height: .4em;
+				font-family: Arial, sans-serif;
+				font-size: .8em;
+				text-transform: uppercase;
+				letter-spacing: .1em;
+				color: #d67e25;
+			}
+			#order #radiobuttons{
+ 				text-align: center;
+ 			}
+			#order input:focus {
+			  border: 1px solid #191a1e;
+			}
+			#ordernow{
+				margin: 1em 0;
+				padding: 0;
+			}
+			/*voted best pizza-index*/
+			#Voted{
+				background-image: url("gourmet-pizza-on-pan.jpg");
+				height: 20em;
+				background-size: 1300px;
+				padding: 0;
+				margin: 2em 0;
+			}
+			#Voted h3 {
+					font-family: Cambria, sans-serif;
+					color: white;
+					text-align: center;
+					vertical-align: center;
+					font-size: 500%;
+			}
+			/*welcome1 - index*/
+			#welcome1{
+				background-image: url("pizzabackground.png"); 
+				background-size: 105%;
+				height: 35em;
+				margin: 0;
+			}
+			#welcome1 .logo{
+				margin:14% 21%;
+			}
+	/*additional classes*/
+	.center{
+		margin: auto;
+		width: 50%;
+	}
+	.endFloating{
+		clear: both;
+	}
+	.leftside{
+		float: left;
+	}
+	.rectangle {
+  		z-index: 1;
+  		height: 6%;
+  		background-color: white;
+	}
+	.rightside{
+		float: right;
+	}
